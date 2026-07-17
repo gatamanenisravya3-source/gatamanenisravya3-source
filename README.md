@@ -42,7 +42,7 @@ Hands-on NumPy/Pandas exercises, exploratory data analysis on the Titanic datase
 
 ## 🛠️ Skills
 
-Python · LLM Evaluation · RAG · LangChain · MLflow · FAISS/OpenSearch · FastAPI · Docker · Kubernetes · AWS · Machine Learning · NLP · Cybersecurity
+Python · LLM Evaluation · RAG · FAISS · MLflow · FastAPI · scikit-learn · Machine Learning · NLP · Cybersecurity
 
 ## 📫 Connect
 
