@@ -3,15 +3,6 @@
 AI/ML engineer building LLM evaluation systems, agentic RAG applications, and security-aware ML tooling. George Mason University.
 
 ## 🚀 Featured Projects
-
-**[LLM Evaluation & AI Governance Platform](https://github.com/gatamanenisravya3-source/llm-evaluation-governance-platform)** — *Feb 2026 – May 2026*
-Evaluation harness that scores model responses for correctness, hallucination, latency, and cost across a "grounded" vs. "noisy" model comparison, with optional MLflow experiment tracking. Demonstrates the methodology an AI governance/eval team would use to catch regressions before production — see repo for real, reproducible sample output.
-`Python` `pandas` `MLflow`
-
-**[Multi-Agent Financial Research Assistant](https://github.com/gatamanenisravya3-source/multi-agent-financial-research-assistant)** — *Nov 2025 – Jan 2026*
-Two-agent RAG pipeline (retriever + analyst) using TF-IDF + FAISS semantic search over financial disclosure snippets, exposed via a FastAPI service. A prototype architecture demonstrating the retrieval/orchestration pattern, not a deployed production system — see repo for real sample output.
-`Python` `FAISS` `FastAPI` `scikit-learn`
-
 **[Text Encryption and Decryption Toolkit](https://github.com/gatamanenisravya3-source/text-encryption-decryption-toolkit)** — *2021 – 2022*
 Cryptography toolkit implementing Caesar, Vigenere, and Playfair classical ciphers plus AES-256 and Triple DES modern ciphers, and MD5/SHA-256/SHA-512 hashing with verification. Includes a Tkinter GUI, a headless CLI demo, and a unit test suite (9/9 passing).
 `Python` `PyCryptodome` `Tkinter`
