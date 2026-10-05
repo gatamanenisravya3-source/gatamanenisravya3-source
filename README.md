@@ -8,7 +8,7 @@ Cryptography toolkit implementing Caesar, Vigenere, and Playfair classical ciphe
 `Python` `PyCryptodome` `Tkinter`
 
 **[Ransomware Attack Simulation & Network Security Analysis](https://github.com/gatamanenisravya3-source/ransomware-attack-simulation)** - *Nov 2025 - Dec 2025*
-Simulated a real-world ransomware attack (based on the 2024 Change Healthcare breach) in a 3-VM lab (Kali Linux, Ubuntu, Windows Server). Recreated the full attacker kill chain - reverse shell, lateral movement via SSH, SMB-based payload delivery, encryption — then analyzed the vulnerabilities exploited and proposed Zero Trust / MFA / segmentation mitigations.
+Simulated a real-world ransomware attack (based on the 2024 Change Healthcare breach) in a 3-VM lab (Kali Linux, Ubuntu, Windows Server). Recreated the full attacker kill chain - reverse shell, lateral movement via SSH, SMB-based payload delivery, encryption - then analyzed the vulnerabilities exploited and proposed Zero Trust / MFA / segmentation mitigations.
 `Cybersecurity` `Network Security`
 
 **[SMS Spam Detection using Machine Learning](https://github.com/gatamanenisravya3-source/sms-spam-detection)** - *Jul 2025 - Aug 2025*
