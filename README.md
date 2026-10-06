@@ -1,40 +1,71 @@
-# Hi, I'm Sravya 👋
+# Sravya Gatamaneni
 
-AI/ML engineer building LLM evaluation systems, agentic RAG applications, and security-aware ML tooling. George Mason University.
+### AI/ML Engineer | Generative AI, RAG & MLOps
 
-## 🚀 Featured Projects
-**[Text Encryption and Decryption Toolkit](https://github.com/gatamanenisravya3-source/text-encryption-decryption-toolkit)** - *2021 - 2022*
-Cryptography toolkit implementing Caesar, Vigenere, and Playfair classical ciphers plus AES-256 and Triple DES modern ciphers, and MD5/SHA-256/SHA-512 hashing with verification. Includes a Tkinter GUI, a headless CLI demo, and a unit test suite (9/9 passing).
-`Python` `PyCryptodome` `Tkinter`
+AI/ML Engineer with **3+ years of professional experience** across financial services and enterprise applications. I build machine learning and NLP systems, with a focus on document intelligence, agentic workflows, retrieval, and model evaluation.
 
-**[Ransomware Attack Simulation & Network Security Analysis](https://github.com/gatamanenisravya3-source/ransomware-attack-simulation)** - *Nov 2025 - Dec 2025*
-Simulated a real-world ransomware attack (based on the 2024 Change Healthcare breach) in a 3-VM lab (Kali Linux, Ubuntu, Windows Server). Recreated the full attacker kill chain - reverse shell, lateral movement via SSH, SMB-based payload delivery, encryption - then analyzed the vulnerabilities exploited and proposed Zero Trust / MFA / segmentation mitigations.
-`Cybersecurity` `Network Security`
+[LinkedIn](https://www.linkedin.com/in/sravya-gatamaneni-017376247/) · [Explore my AI research assistant](https://github.com/gatamanenisravya3-source/ai-investment-research-assistant)
 
-**[SMS Spam Detection using Machine Learning](https://github.com/gatamanenisravya3-source/sms-spam-detection)** - *Jul 2025 - Aug 2025*
-End-to-end NLP pipeline classifying SMS as spam/ham. TF-IDF vectorization + Logistic Regression, ~98% accuracy, probability threshold tuning to control false positives. Deployed as an interactive Streamlit app.
-`Python` `Scikit-learn` `NLP` `Streamlit`
+## Professional experience
 
-**[Pacman Game — AI Agents](https://github.com/gatamanenisravya3-source/pacman-ai-agents)** - *Aug 2024 - Dec 2024*
-AI agents for the Berkeley Pacman environment: reinforcement learning (Q-Learning, Value Iteration), multi-agent search (Minimax, Alpha-Beta, Expectimax), and probabilistic inference (Bayesian networks, particle filtering, HMMs) for tracking hidden entities under noisy data.
-`Reinforcement Learning` `Bayesian Networks` `Search Algorithms`
+**AI/ML Engineer · Piper Sandler**  
+October 2025 – Present · New York, USA
 
-**[Data Mining Coursework](https://github.com/gatamanenisravya3-source/data-mining-coursework)** - *Aug 2023 - Dec 2023*
-Clustering, classification, association rule mining, and dimensionality reduction using K-Means, Decision Trees, PCA, and Apriori, with results visualized in Matplotlib/Seaborn.
-`Python` `Pandas` `NumPy` `Scikit-learn`
+- Develop LLM and RAG applications for financial research, document analysis, and compliance workflows.
+- Work with LangGraph, LangChain, transformer models, vector search, and FastAPI to connect retrieval with AI applications.
+- Apply model evaluation, prompt optimization, MLOps, and cloud deployment practices to enterprise AI systems.
 
-**[Anomaly Detection Methods for IoT Applications](https://github.com/gatamanenisravya3-source/iot-anomaly-detection)** - *Aug 2022 - May 2023*
-IoT weather-monitoring system detecting anomalies and change points in temperature, humidity, pressure, and rainfall data, streamed to a Blynk IoT dashboard.
-`IoT` `Python`
+**Machine Learning Engineer · Persistent Systems**  
+August 2021 – November 2023 · India
 
-**[Python & ML Foundations](https://github.com/gatamanenisravya3-source/python-ml-learning)** - *Learning series*
-Hands-on NumPy/Pandas exercises, exploratory data analysis on the Titanic dataset, and first classification models (Logistic Regression, Decision Trees, Random Forest with GridSearchCV) - five Jupyter notebooks with real, executed outputs.
-`Python` `NumPy` `Pandas` `Scikit-learn`
+- Built predictive models and NLP pipelines for enterprise applications using Python, scikit-learn, XGBoost, and deep learning frameworks.
+- Developed data processing and feature engineering pipelines with Spark, SQL, Airflow, and AWS S3.
+- Worked on model serving, experiment tracking, CI/CD, and model explainability.
 
-## 🛠️ Skills
+## Featured engineering project
 
-Python · LLM Evaluation · RAG · FAISS · MLflow · FastAPI · scikit-learn · Machine Learning · NLP · Cybersecurity
+### [AI Investment Research Assistant](https://github.com/gatamanenisravya3-source/ai-investment-research-assistant)
 
-## 📫 Connect
+A public portfolio implementation of document-grounded financial research: a question flows through planning, retrieval, analysis, and critique to produce an answer with source citations.
 
-[LinkedIn](https://www.linkedin.com/in/sravya-gatamaneni-017376247/)
+- **Agent workflow:** LangGraph coordinates planner, research, analysis, and critique agents, with a bounded retry loop.
+- **Retrieval:** reciprocal rank fusion combines PGVector and optional Pinecone results.
+- **Application:** FastAPI backend, Streamlit interface, and Docker Compose setup.
+- **Engineering:** automated tests and GitHub Actions CI; evaluation scripts for Ragas, TruLens, and MLflow.
+- **Reproducible demo:** synthetic filings and earnings transcripts, with deterministic mock mode for use without API keys.
+
+**Scope:** this repository is a portfolio demo. AWS EKS/SageMaker deployment scaffolding is included but has not been deployed. Mock-mode evaluation uses proxy metrics; it does not establish real-model quality or production performance.
+
+[Architecture & quick start](https://github.com/gatamanenisravya3-source/ai-investment-research-assistant#how-it-works) · [Tests](https://github.com/gatamanenisravya3-source/ai-investment-research-assistant/tree/main/tests) · [CI](https://github.com/gatamanenisravya3-source/ai-investment-research-assistant/actions) · [Evaluation code](https://github.com/gatamanenisravya3-source/ai-investment-research-assistant/tree/main/src/eval)
+
+## Applied ML projects
+
+| Project | Focus | Evidence to explore |
+| --- | --- | --- |
+| [SMS Spam Detection](https://github.com/gatamanenisravya3-source/sms-spam-detection) | TF-IDF, logistic regression, and a Streamlit classification interface | Training code and a [recorded evaluation](https://github.com/gatamanenisravya3-source/sms-spam-detection/blob/main/SAMPLE_OUTPUT.md) reporting spam precision 0.94, recall 0.93, and F1 0.94 |
+| [IoT Anomaly Detection](https://github.com/gatamanenisravya3-source/iot-anomaly-detection) | Rolling z-scores and Isolation Forest on simulated sensor readings | Runnable Python demo with injected anomalies and annotated CSV output |
+| [Pacman AI Agents](https://github.com/gatamanenisravya3-source/pacman-ai-agents) | Reinforcement learning, search, and probabilistic inference | Academic AI project with Python implementations and sample output |
+
+## Technical toolkit
+
+| Area | Technologies |
+| --- | --- |
+| Programming & data | Python, SQL, Pandas, NumPy, Spark / PySpark |
+| Machine learning & NLP | scikit-learn, XGBoost, PyTorch, TensorFlow, Hugging Face Transformers, SHAP |
+| Generative AI & retrieval | LangGraph, LangChain, OpenAI, Azure OpenAI, sentence embeddings, Pinecone, PGVector |
+| Serving & MLOps | FastAPI, Docker, Kubernetes, MLflow, GitHub Actions, AWS, Azure |
+
+## Education
+
+**M.S. in Computer Science** · George Mason University · 2024–2025  
+**B.E. in Computer Science** · SJB Institute of Technology · 2019–2023
+
+<details>
+<summary>Additional coursework and security projects</summary>
+
+- [Data Mining Coursework](https://github.com/gatamanenisravya3-source/data-mining-coursework)
+- [Python & ML Foundations](https://github.com/gatamanenisravya3-source/python-ml-learning)
+- [Text Encryption & Decryption Toolkit](https://github.com/gatamanenisravya3-source/text-encryption-decryption-toolkit)
+- [Ransomware Attack Simulation & Network Security Analysis](https://github.com/gatamanenisravya3-source/ransomware-attack-simulation)
+
+</details>
